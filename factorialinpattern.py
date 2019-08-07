@@ -10,11 +10,11 @@ def fact1(n):
 for i in range(6,0,-1):
     for j in range(i-1):
         print("    ",end=" ")
-    print("fact",i-1)
+    print("factorial",i-1)
   
 for i in range(0,6):
     for j in range(i):
         print("    ",end=" ")
-    print("fact",fact1(i))
+    print("returning",fact1(i))
     
      
